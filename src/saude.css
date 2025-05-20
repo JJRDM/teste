@@ -1,0 +1,22 @@
+.sections {
+    background-color: #ffe8b4;
+    border-radius: 25px;
+    width: 60%;
+    display: flex;
+}
+
+#content_saude {    
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.referencias {
+    height: fit-content;
+    width: 20%;
+    margin-left: 3rem;
+    padding: 1%;
+}
+
+.list_references {
+    list-style: none;
+}
