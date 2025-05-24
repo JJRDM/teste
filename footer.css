@@ -1,0 +1,22 @@
+#footer-main {
+    text-align: center;
+    font-size: 18px;
+    margin: 1% 1% 3px 1% ;
+    padding: 1%;
+}
+
+#footer-content {
+    font-size: 15px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    list-style: none;
+    color: black;
+}
+
+.footer-links a {
+    text-decoration: none;
+}

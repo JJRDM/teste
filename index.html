@@ -6,27 +6,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css"> 
     <link rel="stylesheet" href="home.css"> 
-    <link rel="stylesheet" href="saude.css"> 
+    <link rel="stylesheet" href="cards.css"> 
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Landing page - Bem Estar Digital</title>
 </head>
 <body>
     <header>
         <nav id="navbar">
-            <i class="fa-solid fa-notes-medical" id="nav_logo">HEALTH</i>
+            <i class="fa-solid fa-notes-medical" id="nav_logo">BEM ESTAR DIGITAL</i>
             <ul id="nav_list">
                 <li class="nav-item active"><a href="#home">Home</a></li>
                 <li class="nav-item"><a href="#saude">Saúde</a></li>
                 <li class="nav-item"><a href="#tecnologia">Tecnologia</a></li>
                 <li class="nav-item"><a href="#contato">Contato</a></li>
             </ul>
-    </nav>
+        </nav>
     </header>
 
     <main id="content">
         <section id="home">
-            <div class="shape"></div>
-
+            
             <div id="cta">
                 <h1 class="title">
                     Bem Estar Digital
@@ -36,28 +36,30 @@
                 </p>
 
                 <div class="social-media-button">
-                    <a href="*">
-                        <i class="fa-brands fa-whatsapp"></i>
+                    <a href="https://www.linkedin.com/in/jesse-jr/">
+                        <i class="fa-brands fa-linkedin"></i>
                     </a>
-                    <a href="*">
+                    <a href="https://www.instagram.com/jessejr__/">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="*">
-                        <i class="fa-brands fa-facebook"></i>
+                    <a href="https://github.com/JJRDM">
+                        <i class="fa-brands fa-github"></i>
                     </a>
                 </div>
             </div>
+            
+            <div class="shape">
+                <div id="banner">
+                    <img src="banner.png" alt="Banner ilustrativo sobre Bem Estar Digital">
+                </div>
 
-            <div id="banner">
-                <img src="—Pngtree—healthy elderly_2349627.png" alt="">
             </div>
         </section>
-
         <br>
 
-        <section class="sections">
+        <section id="saude">
             <div id="content_saude">
-                <h2 id="title_saude">Dicas para Manter a Saúde em Dia</h2>
+                <h2 class="title_cards">Dicas para Manter a Saúde em Dia</h2>
                 <p class="p_content">
                     Manter a saúde em dia é fundamental para garantir bem-estar, disposição e qualidade de vida. Pequenas mudanças de hábitos podem trazer grandes benefícios tanto para o corpo quanto para a mente. Confira algumas orientações práticas:
                 </p>
@@ -91,10 +93,9 @@
                         <strong>Postura e ergonomia:</strong> Ao trabalhar ou estudar, mantenha uma postura adequada, ajuste a altura da cadeira e da mesa e faça alongamentos para evitar dores musculares.
                     </li>
                 </ul>
-                <p class="content">
+                <p class="p_content">
                     Adotar hábitos saudáveis diariamente contribui para mais energia, disposição e equilíbrio entre corpo e mente. Cuide de você e incentive quem está ao seu redor a também buscar uma vida mais saudável!
                 </p>
-
             </div>
             <div class="referencias">
                 <h3>Referências</h3>
@@ -112,11 +113,9 @@
             </div>
         </section>
 
-        <br>
-
-        <section class="sections">
+        <section id="tecnologia">
             <div id="content_tecnologia">
-                <h2 id="title_tecnologia">Como Usar a Tecnologia de Forma Segura e Consciente</h2>
+                <h2 class="title_cards">Como Usar a Tecnologia de Forma Segura e Consciente</h2>
                 <p class="p_content">
                     A tecnologia está presente em quase todos os aspectos da vida moderna, trazendo praticidade e novas possibilidades. Para aproveitar seus benefícios e evitar riscos, é importante entender como utilizá-la de maneira segura e responsável. Veja algumas dicas essenciais:
                 </p>
@@ -150,7 +149,7 @@
                         <strong>Respeite a privacidade:</strong> Não compartilhe dados, fotos ou informações de terceiros sem permissão.
                     </li>
                 </ul>
-                <p class="content">
+                <p class="p_content">
                     Usar a tecnologia de forma consciente e segura protege sua privacidade, evita fraudes e contribui para um ambiente digital mais saudável. Mantenha-se atualizado e compartilhe boas práticas!
                 </p>
             </div>
@@ -166,7 +165,35 @@
         </section>
 
 
-        <section id="contato"></section>
+        <section id="contato">
+            <div id="content_contato">
+                <h2 class="title_cards">Fale Conosco</h2>
+                <p class="p_content">
+                    Tem dúvidas, sugestões ou deseja compartilhar sua experiência? Entre em contato pelas redes sociais. Sua opinião é muito importante para nós!
+                </p>
+                <br>
+                <div class="social-media-button">
+                    <a href="https://www.linkedin.com/in/jesse-jr/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/jessejr__/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/JJRDM">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer id="footer-main">
+        <div id="footer-content">
+            <p id="p_footer">&copy; <span id="currentYear"></span> Bem Estar Digital. Todos os direitos reservados.</p>
+            <script>
+                document.getElementById('currentYear').textContent = new Date().getFullYear();
+            </script>
+        </div>
+    </footer>
 </body>
 </html>

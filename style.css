@@ -8,7 +8,7 @@
 }
 
 section {
-    padding: 28px 8%;
+    padding: 28px 8%; 
 }
 
 .social-media-button {
@@ -36,3 +36,27 @@ section {
     box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }
 
+.title_cards {
+    font-size: 50px;
+    color: #000;
+    text-shadow: 2px 4px 8px rgba(0,0,0,0.25);
+}
+
+.topics {
+    margin: 3%;
+}
+
+.p_content {
+    font-size: 20px;
+}
+
+.referencias {
+    height: calc(100vh - 1147px);
+    width: 20%;
+    margin-left: 3rem;
+    padding: 1%;
+}
+
+.list_references {
+    list-style: none;
+}

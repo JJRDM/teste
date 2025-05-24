@@ -1,0 +1,35 @@
+#saude {
+    background-color: #ffe8b4;
+    display: flex;
+    margin: 2% 1% 2% 1%;
+    border-radius: 25px;
+    box-shadow: 0 2px 8px black;
+}
+
+#tecnologia {
+   background-color: #ffe8b4;
+   display: flex; 
+   margin: 2% 1% 2% 1%;
+   border-radius: 25px;
+   box-shadow: 0 2px 8px black;
+}
+
+#content_tecnologia {
+    margin-right: 2%;
+}
+
+#contato {
+   background-color: #ffe8b4;
+   display: flex; 
+   margin: 2% 1% 2% 1%;
+   border-radius: 25px;
+   box-shadow: 0 2px 8px black;
+}
+
+/* #form-contact {
+    margin: 5px;
+} */
+
+#form-contact form {
+    display: flex;
+}
